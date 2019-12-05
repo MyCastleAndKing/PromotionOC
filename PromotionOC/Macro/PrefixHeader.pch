@@ -17,5 +17,8 @@
 #import <IQKeyboardManager/IQKeyboardManager.h>
 #import <CYLTabBarController/CYLTabBarController.h>
 
+#import "FirstPartyTableViewController.h"
+#import "SecondPartyViewController.h"
+
 
 #endif /* PrefixHeader_pch */
