@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0008923823965D1B00662AA5 /* MWorldTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0008923723965D1B00662AA5 /* MWorldTabBarController.m */; };
+		0008923D239660DF00662AA5 /* FirstPartyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0008923C239660DF00662AA5 /* FirstPartyTableViewController.m */; };
+		000892402396615C00662AA5 /* SecondPartyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0008923F2396615C00662AA5 /* SecondPartyViewController.m */; };
 		00288FFD238B7E5000D4475C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00288FFC238B7E5000D4475C /* AppDelegate.m */; };
 		00289000238B7E5000D4475C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00288FFF238B7E5000D4475C /* SceneDelegate.m */; };
 		00289003238B7E5000D4475C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289002238B7E5000D4475C /* ViewController.m */; };
@@ -16,6 +19,7 @@
 		0028900E238B7E5000D4475C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0028900D238B7E5000D4475C /* main.m */; };
 		00289018238B7E5100D4475C /* PromotionOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289017238B7E5100D4475C /* PromotionOCTests.m */; };
 		00289023238B7E5100D4475C /* PromotionOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00289022238B7E5100D4475C /* PromotionOCUITests.m */; };
+		DF06B1149E758054F4CE2A1C /* Pods_PromotionOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F62C20124AD126319C8672 /* Pods_PromotionOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0008923623965D1B00662AA5 /* MWorldTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWorldTabBarController.h; sourceTree = "<group>"; };
+		0008923723965D1B00662AA5 /* MWorldTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWorldTabBarController.m; sourceTree = "<group>"; };
+		0008923B239660DF00662AA5 /* FirstPartyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPartyTableViewController.h; sourceTree = "<group>"; };
+		0008923C239660DF00662AA5 /* FirstPartyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPartyTableViewController.m; sourceTree = "<group>"; };
+		0008923E2396615C00662AA5 /* SecondPartyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondPartyViewController.h; sourceTree = "<group>"; };
+		0008923F2396615C00662AA5 /* SecondPartyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondPartyViewController.m; sourceTree = "<group>"; };
 		00288FF8238B7E5000D4475C /* PromotionOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromotionOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00288FFB238B7E5000D4475C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00288FFC238B7E5000D4475C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,10 @@
 		0028901E238B7E5100D4475C /* PromotionOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromotionOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00289022238B7E5100D4475C /* PromotionOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionOCUITests.m; sourceTree = "<group>"; };
 		00289024238B7E5100D4475C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00289032238BA94800D4475C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C1214B9085D214CD9F827EF /* Pods-PromotionOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromotionOC.debug.xcconfig"; path = "Target Support Files/Pods-PromotionOC/Pods-PromotionOC.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2679D280F0024ABBEB8ED6 /* Pods-PromotionOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromotionOC.release.xcconfig"; path = "Target Support Files/Pods-PromotionOC/Pods-PromotionOC.release.xcconfig"; sourceTree = "<group>"; };
+		A6F62C20124AD126319C8672 /* Pods_PromotionOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromotionOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF06B1149E758054F4CE2A1C /* Pods_PromotionOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0008922F23964E2300662AA5 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0008923623965D1B00662AA5 /* MWorldTabBarController.h */,
+				0008923723965D1B00662AA5 /* MWorldTabBarController.m */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		000892392396606C00662AA5 /* SecondParty */ = {
+			isa = PBXGroup;
+			children = (
+				0008923E2396615C00662AA5 /* SecondPartyViewController.h */,
+				0008923F2396615C00662AA5 /* SecondPartyViewController.m */,
+			);
+			path = SecondParty;
+			sourceTree = "<group>";
+		};
+		0008923A2396606E00662AA5 /* FirstParty */ = {
+			isa = PBXGroup;
+			children = (
+				0008923B239660DF00662AA5 /* FirstPartyTableViewController.h */,
+				0008923C239660DF00662AA5 /* FirstPartyTableViewController.m */,
+			);
+			path = FirstParty;
+			sourceTree = "<group>";
+		};
 		00288FEF238B7E5000D4475C = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +130,8 @@
 				00289016238B7E5100D4475C /* PromotionOCTests */,
 				00289021238B7E5100D4475C /* PromotionOCUITests */,
 				00288FF9238B7E5000D4475C /* Products */,
+				1C33A044DA2A0A59B95CCEDC /* Pods */,
+				5807334B005B96C6BEA49AD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +148,11 @@
 		00288FFA238B7E5000D4475C /* PromotionOC */ = {
 			isa = PBXGroup;
 			children = (
-				00288FFB238B7E5000D4475C /* AppDelegate.h */,
-				00288FFC238B7E5000D4475C /* AppDelegate.m */,
-				00288FFE238B7E5000D4475C /* SceneDelegate.h */,
-				00288FFF238B7E5000D4475C /* SceneDelegate.m */,
-				00289001238B7E5000D4475C /* ViewController.h */,
-				00289002238B7E5000D4475C /* ViewController.m */,
-				00289004238B7E5000D4475C /* Main.storyboard */,
-				00289007238B7E5000D4475C /* Assets.xcassets */,
-				00289009238B7E5000D4475C /* LaunchScreen.storyboard */,
-				0028900C238B7E5000D4475C /* Info.plist */,
-				0028900D238B7E5000D4475C /* main.m */,
+				0008923A2396606E00662AA5 /* FirstParty */,
+				000892392396606C00662AA5 /* SecondParty */,
+				0008922F23964E2300662AA5 /* TabbarController */,
+				00289031238BA8D100D4475C /* Macro */,
+				00289030238B831900D4475C /* Other */,
 			);
 			path = PromotionOC;
 			sourceTree = "<group>";
@@ -137,6 +175,49 @@
 			path = PromotionOCUITests;
 			sourceTree = "<group>";
 		};
+		00289030238B831900D4475C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				00288FFB238B7E5000D4475C /* AppDelegate.h */,
+				00288FFC238B7E5000D4475C /* AppDelegate.m */,
+				00288FFE238B7E5000D4475C /* SceneDelegate.h */,
+				00288FFF238B7E5000D4475C /* SceneDelegate.m */,
+				00289001238B7E5000D4475C /* ViewController.h */,
+				00289002238B7E5000D4475C /* ViewController.m */,
+				00289004238B7E5000D4475C /* Main.storyboard */,
+				00289007238B7E5000D4475C /* Assets.xcassets */,
+				00289009238B7E5000D4475C /* LaunchScreen.storyboard */,
+				0028900C238B7E5000D4475C /* Info.plist */,
+				0028900D238B7E5000D4475C /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		00289031238BA8D100D4475C /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				00289032238BA94800D4475C /* PrefixHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1C33A044DA2A0A59B95CCEDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1214B9085D214CD9F827EF /* Pods-PromotionOC.debug.xcconfig */,
+				3F2679D280F0024ABBEB8ED6 /* Pods-PromotionOC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5807334B005B96C6BEA49AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F62C20124AD126319C8672 /* Pods_PromotionOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00289027238B7E5100D4475C /* Build configuration list for PBXNativeTarget "PromotionOC" */;
 			buildPhases = (
+				ACD9B3DAC1313F009D1F0D1E /* [CP] Check Pods Manifest.lock */,
 				00288FF4238B7E5000D4475C /* Sources */,
 				00288FF5238B7E5000D4475C /* Frameworks */,
 				00288FF6238B7E5000D4475C /* Resources */,
+				2426AFC4C433A8D19E42EB33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,13 +345,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2426AFC4C433A8D19E42EB33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PromotionOC/Pods-PromotionOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PromotionOC/Pods-PromotionOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PromotionOC/Pods-PromotionOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD9B3DAC1313F009D1F0D1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PromotionOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00288FF4238B7E5000D4475C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00289003238B7E5000D4475C /* ViewController.m in Sources */,
+				000892402396615C00662AA5 /* SecondPartyViewController.m in Sources */,
 				00288FFD238B7E5000D4475C /* AppDelegate.m in Sources */,
+				0008923823965D1B00662AA5 /* MWorldTabBarController.m in Sources */,
+				0008923D239660DF00662AA5 /* FirstPartyTableViewController.m in Sources */,
 				0028900E238B7E5000D4475C /* main.m in Sources */,
 				00289000238B7E5000D4475C /* SceneDelegate.m in Sources */,
 			);
@@ -437,10 +565,13 @@
 		};
 		00289028238B7E5100D4475C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1214B9085D214CD9F827EF /* Pods-PromotionOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YHXFAYAT4X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PromotionOC/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = PromotionOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,10 +585,13 @@
 		};
 		00289029238B7E5100D4475C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2679D280F0024ABBEB8ED6 /* Pods-PromotionOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YHXFAYAT4X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PromotionOC/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = PromotionOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
